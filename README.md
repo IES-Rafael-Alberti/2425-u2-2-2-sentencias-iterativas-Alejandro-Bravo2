@@ -77,3 +77,20 @@ Apoyate en los siguientes recursos para realizar la práctica:
    - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
 4. **Compilación y Ejecución:**
    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+
+
+### 1. Objetivo
+** Evaluar la relación entre software y hardware, clasificar lenguajes de programación y comprender los diferentes procesos de ejecución (compilación, interpretación y 
+máquinas virtuales), utilizando ejemplos de lenguajes interpretados, compilados y que generan código intermedio para su ejecución en una máquina virtual. **
+
+
+La relación entre software y hardware es que software son las instrucciones que se ejecutan sobre el hardware.
+
+** Clasificación lenguaje de programación **
+    1- Lenguajes interpretados: Son lenguajes que se ejecutan línea a línea, ya que hacen una conversión a lenguaje máquina mientras se va ejecutando. No generá ningún código intermedio ni se ejecuta sobre ninguna máquina virtual.
+    2- Lenguajes compilados: Son lenguajes que realiza una conversión de código fuente al código máquina especifico de cada máquina.
+    3- Lenguajes ejecutados en máquina virtual: Son lenguajes que realizan una conversión de código fuente a código intermedio y luego ese código intermedio se ejecuta sobre una máquina virtual lo cual permite portabilidad por que podremos usar el mismo código fuente en diferentes entornos.
+
+
+### 2.Dínamica
+
