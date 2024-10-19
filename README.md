@@ -11,18 +11,18 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** (https://revilofe.github.io/section3/u01/practica/EDES-U1.-Practica011/#6-entrega)
+- **Módulo:** EDES
+- **Unidad de Trabajo:** Práctica 1.11 Elementos de desarrollo
+- **Fecha de Creación:** 18/10/2024
+- **Fecha de Entrega:** 19/10/2024
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Alejandro Bravo Calderón
+  - **Correo electrónico:** abracal@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** abc
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+Esta actividad consiste en entender las diferencias entre los lenguajes interpretados, compilados y lenguajes que usan máquinas virtuales.
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
@@ -44,27 +44,27 @@ No hay pruebas
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+Se ha realizado esta actividad enfocandome a explicar de forma sencilla y abstracta las características de cada tipo de lenguaje.
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
+https://github.com/IES-Rafael-Alberti/2425-u2-2-2-sentencias-iterativas-Alejandro-Bravo2?tab=readme-ov-file
 
 ### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+- **Entrada 1:** Dime tu nombre: 
+- **Salida Esperada 1:** Tu nombre es: <nombre> este programa está hecho en el lenguaje de programación:
 
 ### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
-
+La verificación del código se ha realizado personalmente ya que por su simplicidad no ha sido necesario usar un depurador.
 ## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
+- **Manual de Usuario:** https://github.com/Alejandro-Bravo2
+- **Autorización de Permisos:** El profesor si tiene permisos.
 
 ## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
-
+He aprendido las principales diferencias entre los lenguajes interpretados, compilados y ejecutados por máquinas virtuales.
+Además he aprendido un poco de c y java.
 ## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_function_scanf_es.html
+https://www.w3schools.com/java/java_user_input.asp
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
