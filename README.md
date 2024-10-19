@@ -184,3 +184,28 @@ La principal característica es que se va a ver involucrado la forma en la ejecu
 
 Captura de pantalla del código ejecutado:
 ![Pruebas de ejecución](asserts/pruebas.png)
+
+
+
+#### 7. Conclusión Final¶
+
+**Al final del trabajo, se deberá reflexionar y entregar una conclusión, de no más de 10 líneas, que compare las diferencias entre los tres lenguajes (interpretado, compilado y en máquina virtual), destacando:**
+
+   - Diferencias de rendimiento:
+      - Interpretado: El más lento de todos.
+      - Compilado: El más rapido de todos.
+      - Máquina virtual: Más rapido que interpretado pero más lento que compilado.
+   - La facilidad o complejidad de cada proceso de ejecución.
+      - Interpretado: El más fácil de todos.
+      - Compilado: Mas fácil que usando una máquina virtual pero más dificil que interpretado.
+      - Máquina virtual: El más dificil de todos.
+   - Las ventajas y desventajas de cada tipo de lenguaje (interpretado vs compilado vs intermedio)
+      - Interpretado:
+         - Ventajas: Más cercano al lenguaje humano, es de alto nivel y permite una mayor abstracción del hardware.
+         - Desventaja: No control del hardware, muy lento en ejecución.
+      - Compilado:
+         - Ventajas: Control del hardware, buen rendimiento.
+         - Desventaja: Bajo nivel o nivel medio, dificil de aprender, seguridad.
+      - Máquina virtual:
+         - Ventajas: Portabilidad, Seguridad, rendimiento, alto nivel.
+         - Desventajas: No control del hardware.
