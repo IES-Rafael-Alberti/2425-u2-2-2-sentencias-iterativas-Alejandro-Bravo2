@@ -26,23 +26,21 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Python3, java, c y gcc
 
 2. **Pasos para Compilar el Código:**
-   ```bash
-   [Comando para compilar el código]
+   ```Para java: javac + <fichero>.java
+      Para c: gcc <fichero> -o <fichero>
    ```
 
 3. **Pasos para Ejecutar el Código:**
-   ```bash
-   [Comando para ejecutar la aplicación]
+   ```Para python3: python3 + <fichero>
+      Para c: ./<fichero>
+      Para java: java <fichero>
    ```
 
 4. **Ejecución de Pruebas:**
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
-   ```
+No hay pruebas
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
@@ -92,5 +90,44 @@ La relación entre software y hardware es que software son las instrucciones que
     3- Lenguajes ejecutados en máquina virtual: Son lenguajes que realizan una conversión de código fuente a código intermedio y luego ese código intermedio se ejecuta sobre una máquina virtual lo cual permite portabilidad por que podremos usar el mismo código fuente en diferentes entornos.
 
 
-### 2.Dínamica
+### 5. Preguntas y Actividades para Evaluar Cada Criterio de Evaluación
+Contesta a estás preguntas de forma concisa y clara. Las respuestas deben estar bien estructuradas e ir al grano. Si es necesario añade capturas de pantalla para ilustrar tus respuestas.
+#### 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware¶
+** Pregunta **
+Describe cómo el software que has creado se ha relacionado con los componentes físicos del dispositivo (memoria RAM, procesador, periféricos, etc.) durante la ejecución de los tres lenguajes (interpretado, compilado y en máquina virtual).
+
+** C **
+Primero hemos compilado el código en caso de c, ese código ha sido verificado para comprobar que no hayan fallos.
+Una vez el código está compilado lo hemos ejecutado, guardando las partes del código en direcciones de memorias, 
+el procesador fue leyendo esas direcciones de memoria y aumentando el contador de programa en 1,
+el registro de instrucciones guarda la dirección de memoria que se va a ejecutar en ese momento,
+la alu se encarga de las operaciones lógicas, en este caso de leer el valor introducido por el usuario que será recopilado por el dispositivo de entrada y se guardará en el buffer de entrada, luego se aumentará en 1 el contador de programa y se aumentará el registro de intrucciones, el procesador enviará el valor introducido por el usuario y la cadena de texto de: Hola este programa ha sido realizado por el lenguaje C/Java/Python al dispositivo de salida.
+
+** Python **
+Una vez que ejecutamos el código se empieza traducir de código fuente a código ejecutable mientras que lo vamos ejecutando.
+Las partes del código se  irán guardando en direcciones de memorias, 
+el procesador irá leyendo esas direcciones de memoria y aumentando el contador de programa en 1,
+el registro de instrucciones guarda la dirección de memoria que se va a ejecutar en ese momento,
+la alu se encarga de las operaciones lógicas, en este caso de leer el valor introducido por el usuario que será recopilado por el dispositivo de entrada y se guardará en el buffer de entrada, luego se aumentará en 1 el contador de programa y se aumentará el registro de intrucciones, el procesador enviará el valor introducido por el usuario y la cadena de texto de: Hola este programa ha sido realizado por el lenguaje C/Java/Python al dispositivo de salida.
+
+** Java ***
+Primero se realiza una compilación del código fuente al código intermedio llamaod bytecode, ese código intermedio se pasa a una máquina virtual y lo traduce a lenguaje máquina para poder se ejecutado por el sistema operativo.
+Las partes del código se  irán guardando en direcciones de memorias pero de esto se encarga la máquina virtual.
+el procesador irá leyendo esas direcciones de memoria y aumentando el contador de programa en 1,
+el registro de instrucciones guarda la dirección de memoria que se va a ejecutar en ese momento,
+la alu se encarga de las operaciones lógicas, en este caso de leer el valor introducido por el usuario que será recopilado por el dispositivo de entrada y se guardará en el buffer de entrada, luego se aumentará en 1 el contador de programa y se aumentará el registro de intrucciones, el procesador enviará el valor introducido por el usuario y la cadena de texto de: Hola este programa ha sido realizado por el lenguaje C/Java/Python al dispositivo de salida.
+
+#### 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
+** Preguntas: **
+
+** Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código **objeto)? ¿Qué nombres tomaron estos archivos?
+
+El proceso de trasnformar de código fuente a código objeto es el siguiente:
+El compilador analiza el código fuente y en caso de no haber ningún fallo entonces traducirá las instrucciones del código fuente y las agrupará en un fichero con extensión .class en caso de ser de bytecode o c, este fichero contendrá todas las instrucciones traducidas, también el enlazador hará referencia a las funciones que se encuentren en las bibliotecas o datos usados en el código.
+
+Sí generé archivos intermedios, el fichero .class y el fichero compilado de c .
+El de java toma el nombre de la clase pública main y el de c tomó el nombre que quise por ejemplo yo le puse de nombre: compilado.
+
+
+** Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.** 
 
