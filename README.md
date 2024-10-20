@@ -127,7 +127,7 @@ lenguaje C/Java/Python al dispositivo de salida.
 
 **Java**
 
-Primero se realiza una compilación del código fuente al código intermedio llamaod bytecode, 
+Primero se realiza una compilación del código fuente al código intermedio llamado bytecode, 
 ese código intermedio se pasa a una máquina virtual y lo traduce a lenguaje máquina para poder 
 se ejecutado por el sistema operativo.
 Las partes del código se  irán guardando en direcciones de memorias pero de esto se encarga la máquina virtual.
