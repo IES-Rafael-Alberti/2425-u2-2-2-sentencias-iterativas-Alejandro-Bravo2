@@ -203,7 +203,7 @@ código ejecutado no podá interactuar directamente con el sistema operativo dif
 **Clasifica los tres lenguajes utilizados (interpretado, compilado y en máquina virtual) según su:**
 
 - Modo de ejecución:
-   - Interpretado: realiza una conversión de código fuente a código intermedio en su proceso de ejecución.
+   - Interpretado: realiza una conversión de código fuente a código de bajo nivel o estructura de datos en su proceso de ejecución.
    - Compilado: Se ejecuta siguiendo el orden del código máquina compilado.
    - Máquina virtual: La máquina virtual es la encargada de la asignación de memoria y el código
     máquina se ejecuta directamente en el procesador.
