@@ -152,7 +152,11 @@ El compilador analiza el código fuente y en caso de no haber ningún fallo ento
  también el enlazador hará referencia a las funciones que se encuentren en las bibliotecas o datos 
  usados en el código.
 
-Sí generé archivos intermedios, el fichero .class y el fichero compilado de c .
+Sí generé archivos intermedios en caso de java el fichero .class, en caso de c, no generé ningun fichero intermedio 
+ya que yo use gcc con la opción -o que lo que hace es realizar la operación de compilización y enlazador de una sola vez
+de esta forma el usuario final en este caso yo, no vi el código objeto. Pero si quieres ver el código objeto de c tienes que usar
+gcc -c <archivo.c>
+
 El de java toma el nombre de la clase pública main y el de c tomó el nombre que quise por ejemplo yo le puse de nombre: compilado.
 
 
